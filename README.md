@@ -11,7 +11,7 @@ Health Check command for AWS Task definition :
 CMD-SHELL,curl -f http://localhost:8080/actuator/health || exit 1
 ```
 
-
+```
 Prerequisite :
 1. AWS acconunt.
 2. Git and docker installed on the machine.
